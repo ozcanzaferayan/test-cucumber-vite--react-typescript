@@ -16,7 +16,7 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
@@ -24,6 +24,6 @@
     "esm": true,
     "experimentalSpecifierResolution": "node"
   },
-  "include": ["src", "src/greeting.ts", "features/support/steps.ts"],
+  "include": ["src", "src/greeting.ts", "features/support/steps.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
