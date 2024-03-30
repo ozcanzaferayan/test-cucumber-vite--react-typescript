@@ -20,10 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": [
-    "src",
-    "features/support/greeting.ts",
-    "features/support/steps.ts"
-  ],
+  "include": ["src", "src/greeting.ts", "features/support/steps.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
