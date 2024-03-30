@@ -20,6 +20,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
   "include": ["src", "src/greeting.ts", "features/support/steps.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

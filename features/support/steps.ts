@@ -1,6 +1,6 @@
 import { Then, When } from "@cucumber/cucumber";
 import assert from "assert";
-import { sayHello } from "../../src/greeting.ts";
+import { sayHello } from "../../src/greeting";
 
 When("the greeter says hello", function () {
   this.whatIHeard = sayHello();
